@@ -1,22 +1,15 @@
 # Getting Started with the WPF Docking Manager of Syncfusion.
 
-This sample contains Docking Manager with multiple views that are docked similar to the UI of visual studio.
+As .NET developers, we have all worked in Visual Studio and at some point may have wondered about the docking windows that hold the Solution Explorer, Code Window, Toolbox, and others. Visual Studio-style docking windows allow you to resize, move, and change the behavior of windows to create a layout that suits various development models. The Syncfusion docking manager allows users to create their own layouts by just dragging and dropping windows to the desired positions. Users can persist the layout with built-in serialization options. Every part of the docking windows can be customized, and a variety of built-in themes are included for changing the window appearance.
 
-Watch the video now:
+## Overview
+The docking manager component lets you add Visual Studio-style docking windows and tabbed document interfaces to your application. It allows the interactive dragging of docking windows around the screen to make them float over any location. As in Visual Studio, the docking manager offers different kinds of windows:
 
-Documentation: https://help.syncfusion.com/wpf/pdf-viewer/getting-started
+* Dock
+* Float
+* Document
+* Autohidden
 
-## Project pre-requisites
+For more details please click [VisualStudio like DockingManager](https://www.syncfusion.com/blogs/post/create-visual-studio-like-docking-windows-in-wpf.aspx)
 
-To run this application, you need to have the below two in your system
-
-* VisualStudio 2010 and above
-* Docking Manager Assemblies or Syncfusion.Tools.WPF NuGet
-
-## Install
-
-You can install the Docking Manager Assemblies from Syncfusion nuget packages. Follow the below steps to install assemblies from nuget
-
-* Go to the References option in the project.
-* Right-click the References option and choose Manage NuGet Packages option from the menu that will display a window.
-* Now search for Syncfusion.Tools.WPF nuget and install .
+![VSLikeDockingManager](VSDockWindows/Images/VSLikeDockingManager.png)
